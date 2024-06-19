@@ -1,0 +1,26 @@
+
+
+#' A dataset from a non-alcoholic fatty liver disease study
+#'
+#' @description A total of 186 patients with non-alcoholic fatty liver disease were recruited
+#' at the University of Wisconsin Hospitals in 2017. The patients underwent
+#' computed tomography scan of the liver for the presence of non-alcoholic
+#' steato-hepatitis, the most severe form of non-alcoholic fatty liver disease.
+#' The image was subsequently assessed by two radiologists using a scale of 1
+#' to 5, with higher values indicating greater likelihood of disease. This is
+#'  a slightly altered dataset from the one used in Mao (2024).
+#'
+#'
+#' @format A data frame with 186 rows (one per patient) and 7 variables:
+#' \describe{
+#'   \item{R1NASH, R2NASH}{Rating scores (1-5) by two readers.}
+#'   \item{Sex}{\code{M}: male; \code{F}: female.}
+#'   \item{AF}{Advanced fibrosis (\code{TRUE} or \code{FALSE}).}
+#'   \item{Steatosis}{Percent of steatosis.}
+#'   \item{SSF2}{Liver mean gray level intensity.}
+#'   \item{LSN}{Liver surface nodularity.}
+#'   }
+#' @references
+#' Mao, L. (2024). Win ratio for partially ordered data.
+#' \emph{Statistica Sinica}, Under revision.
+"liver"
